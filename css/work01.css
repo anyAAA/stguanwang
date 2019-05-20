@@ -1,0 +1,250 @@
+html {
+    height: 100%;
+}
+
+body,
+p,
+div {
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bao {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 677px;
+    background: url(../images/beijing.jpg) no-repeat 100% 100%;
+    position: relative;
+}
+
+/* 上 登陆注册 */
+
+.nav {
+    width: 1050px;
+    margin: 0 auto;
+    height: 35px;
+    overflow: hidden;
+}
+
+.nav p {
+    width: 56px;
+    height: 35px;
+    float: right;
+}
+
+.nav a {
+    color: white;
+    font-size: 13px;
+}
+
+/* 中 */
+
+.content {
+    width: 1050px;
+    margin: 50px auto 0;
+}
+
+.content_1 {
+    width: 174px;
+    height: 74px;
+    float: left;
+}
+
+.content_1 img {
+    display: inline-block;
+    width: 174px;
+    height: 74px;
+}
+
+.content_2 {
+    overflow: hidden;
+}
+
+.content_2 li {
+    float: left;
+}
+
+.content_2 li:nth-child(1) {
+    margin-left: 50px;
+}
+
+.content_2 a {
+    width: 110px;
+    display: inline-block;
+    line-height: 74px;
+    color: white;
+}
+
+.content_2 a:hover {
+    color: aqua
+}
+
+/* 下  */
+
+.scroll div:nth-child(1) {
+    position: absolute;
+    left: 30%;
+    bottom: 10%
+}
+
+.scroll div:nth-child(2) {
+    position: absolute;
+    left: 43%;
+    bottom: 11%
+}
+
+.scroll div:nth-child(3) {
+    position: absolute;
+    left: 55%;
+    bottom: 11%
+}
+
+
+/* ______________________________________ */
+/* 精品课程 */
+
+.jpkc {
+    background: #e9e9e9;
+}
+
+.jpkc_1>h4 {
+    float: left;
+    font-size: 22px;
+}
+
+.jpkc_1>p {
+    float: right;
+    line-height: 60px;
+}
+
+.summary {
+    overflow: hidden;
+}
+
+.summary>div {
+    width: 320px;
+    height: 320px;
+    float: left;
+}
+
+.summary>div>p {
+    text-indent: 2.5em
+}
+
+/* 学员作品 */
+
+.list {
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+
+.xyzp_1>h4 {
+    float: left;
+    font-size: 22px;
+}
+
+.xyzp_1>p {
+    float: right;
+    line-height: 60px;
+}
+
+.list>div {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+
+.list>div p {
+    text-align: center;
+}
+
+.list>div img {
+    width: 220px;
+    height: 300px;
+}
+
+/* 最新视频 */
+
+.news {
+    height: 692px;
+    background: #e9e9e9;
+    position: relative;
+}
+
+.news div:nth-child(1) {
+    overflow: hidden;
+}
+
+.news div:nth-child(1)>h4 {
+    float: left;
+    font-size: 22px;
+}
+
+.news>div>p {
+    float: right;
+    line-height: 60px;
+}
+
+/* 中间黑色框 */
+
+.news_2 {
+    width: 100%;
+    height: 100%;
+}
+
+.vote {
+    width: 651px;
+    height: 382px;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -191px;
+}
+
+.vote_p {
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+    margin-left: -120px;
+}
+
+.xiaoyu {
+    font-size: 4em;
+    width: 39px;
+    height: 120px;
+    position: absolute;
+    left: 15%;
+    bottom: 40%;
+}
+
+.dayu {
+    font-size: 4em;
+    width: 39px;
+    height: 180px;
+    position: absolute;
+    right: 15%;
+    bottom: 31%;
+}
+
+.footer {
+    width: 100%;
+    height: 260px;
+    background: #313541;
+}

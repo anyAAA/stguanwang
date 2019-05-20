@@ -1,0 +1,76 @@
+.copyright {
+    width: 100%;
+    background: white;
+    margin: 0 auto
+}
+
+/* 给宽 */
+/* 单个大的div总大小 */
+
+/* aboutus */
+.aboutus {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutus>img {
+    width: 584px;
+    height: 664px;
+    float: left;
+}
+
+.aboutus>p {
+    width: 480px;
+    margin-left: 36px;
+    float: left;
+    font-size: 17px;
+}
+
+/* contact */
+.contact {
+    width: 1100px;
+    /* overflow: hidden; */
+    margin: 0 auto;
+}
+
+.contact p {
+    height: 47px;
+    font-size: 30px;
+    line-height: 47px;
+    margin: 0 0 20px 0;
+}
+
+.contact img {
+    width: 1200px;
+    position: relative;
+    margin-left: -50px;
+}
+
+/* <!-- 地址和联系电话 --> */
+.f-fx {
+    width: 1100px;
+    margin: 20px auto 50px;
+    overflow: hidden;
+
+}
+
+.f-left {
+    width: 561px;
+    height: 266px;
+    float: left;
+}
+
+.f-left p {
+    width: 560px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.f-right {
+    float: right;
+}

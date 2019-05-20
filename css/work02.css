@@ -1,0 +1,81 @@
+.main {
+    width: 100%;
+    background: white;
+    margin: 0 auto
+}
+
+/* 给宽 */
+/* 单个大的div总大小 */
+.main-1 {
+    width: 1102px;
+    height: 226px;
+    margin: 40px auto 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+/* 给颜色 */
+.main-1:nth-child(2n) {
+    background: #6c6c6c;
+}
+
+.main-1:nth-child(2n+1) {
+    background: #292b35;
+}
+
+/* 左面div */
+.main-1-left {
+    width: 274px;
+    float: left;
+    background: #e4e4e4;
+    border-radius: 10px 0 0 10px;
+}
+
+/*左面 上 p */
+.main-1-left p:nth-child(1) {
+    font-size: 6em;
+    width: 274px;
+    height: 146px;
+    line-height: 180px;
+    text-align: center;
+}
+
+/* 左面下 p */
+.main-1-left p:nth-child(2) {
+    font-size: 13px;
+    width: 274px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: both;
+    overflow: hidden;
+}
+
+/* 右面div */
+.main-1-right {
+    width: 828px;
+    height: 226px;
+    overflow: hidden;
+    color: white;
+}
+
+/* 右面 上p */
+.main-1-right p:nth-child(1) {
+    width: 828px;
+    height: 110px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 150px;
+    text-indent: 2em;
+}
+
+/* 右面 下p */
+.main-1-right p:nth-child(2) {
+    width: 828px;
+    height: 110px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 100px;
+    text-indent: 2em;
+}

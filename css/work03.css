@@ -1,0 +1,89 @@
+.hot {
+    width: 100%;
+    background: white;
+    margin: 0 auto
+}
+
+/* 给宽 */
+/* 单个大的div总大小 */
+.hott {
+    width: 1100px;
+}
+
+.hot-1 {
+    color: #081f40;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* 长文字 */
+.hot-2 {
+    width: 993px;
+    margin: 0 auto;
+    font-size: 16.5px;
+}
+
+/* 选项列表 */
+.hot-3 {
+    width: 630px;
+    height: 35px;
+    margin: 30px auto 30px;
+    overflow: hidden;
+}
+
+.hot-3 li {
+    /* width: 80px; */
+    margin: 0 20px 0 20px;
+    height: 30px;
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.hot-3 li a {
+    color: #8c8c8c;
+}
+
+/* 列表排列 学生案例排列 */
+.hot-4 {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hot-4 li {
+    width: 250px;
+    height: 390px;
+    float: left;
+    margin: 0 25px 20px 0;
+}
+
+.hot-4 li>span {
+    display: inline-block;
+    width: 250px;
+    height: 340px;
+    background: black;
+}
+
+.hot-4-a1 {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.hot-4-a2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.yema {
+    width: 552px;
+    height: 50px;
+    margin: 0 auto 20px;
+}
+
+.yema h3 {
+    font-size: 2.5em;
+    text-align: center;
+}
